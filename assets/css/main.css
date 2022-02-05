@@ -7,6 +7,19 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.colored {
+	font-size: 5em;
+}
+
+#profile {
+	height: 10em;
+	margin-top: .5em;
+	margin-bottom: 2.5em;
+	border-radius: 50em;
+	filter: drop-shadow(2.5px 5px 5px rgba(20, 20, 20, .75));
+	opacity: .95;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
