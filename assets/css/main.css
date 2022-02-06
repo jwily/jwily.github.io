@@ -1,11 +1,20 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Cormorant+SC&family=Cormorant:wght@700&family=Karla:ital,wght@0,400;0,700;0,800;1,400&family=Merriweather:wght@300&family=Noto+Serif+JP&family=Oranienbaum&family=Raleway:ital,wght@0,400;0,700;0,800;1,400&display=swap');
 
 /*
 	Highlights by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+#profile {
+	height: 10em;
+	margin-top: .5em;
+	margin-bottom: 2.5em;
+	border-radius: 50em;
+	filter: drop-shadow(2.5px 5px 5px rgba(20, 20, 20, .75));
+	opacity: .95;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3142,3 +3151,28 @@ input, select, textarea {
 				}
 
 	}
+
+.colored {
+	font-size: 5em;
+}
+
+.project-name {
+	text-transform: none;
+	font-size: 1.25em;
+}
+
+#alter-self {
+	font-family: 'Cormorant SC', serif;
+}
+
+#roll-for {
+	font-family: 'Cormorant', serif;
+}
+
+#tale-task {
+	font-family: 'Oranienbaum', serif;
+}
+
+#loot-locker {
+	font-family: 'Cardo', serif;
+}
