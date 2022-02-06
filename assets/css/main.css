@@ -3161,6 +3161,20 @@ input, select, textarea {
 	font-size: 1.25em;
 }
 
+.nav-buttons {
+	margin-top: 2em !important;
+	justify-content: center;
+}
+
+.nav-buttons li {
+	/* font-size: 1.25em; */
+	padding: 0em 1em !important;
+}
+
+.nav-buttons a {
+	border: none;
+}
+
 #alter-self {
 	font-family: 'Cormorant SC', serif;
 }
