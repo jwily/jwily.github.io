@@ -3177,6 +3177,10 @@ input, select, textarea {
 	border: none;
 }
 
+.nav-icons {
+	margin-bottom: 0 !important;
+}
+
 #alter-self {
 	font-family: 'Cormorant SC', serif;
 }
