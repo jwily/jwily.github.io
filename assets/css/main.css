@@ -3162,7 +3162,7 @@ input, select, textarea {
 }
 
 .nav-buttons {
-	margin-top: 2.5em;
+	margin-top: 2em !important;
 }
 
 .nav-buttons li {
