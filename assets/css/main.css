@@ -3162,10 +3162,7 @@ input, select, textarea {
 }
 
 .nav-buttons {
-	margin-top: 2.5em !important;
-	justify-content: center;
-	margin-left: 0 !important;
-	/* margin-bottom: 1em !important; */
+	margin-top: 2.5em;
 }
 
 .nav-buttons li {

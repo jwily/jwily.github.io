@@ -26,9 +26,9 @@
 			<h1>John Jaeyoung Lee</h1>
 			<p>Software Engineer. Aspiring Polyglot.</p>
 			<div>
-				<ul class="nav-buttons actions">
+				<ul class="nav-buttons actions special">
 					<li><a href="#one" class="scrolly">About</a></li>
-					<li><a href="#two" class="scrolly">Technologies</a></li>
+					<li><a href="#two" class="scrolly">Skills</a></li>
 					<li><a href="#three" class="scrolly">Projects</a></li>
 					<li><a href="#footer" class="scrolly">Contact</a></li>
 				</ul>
@@ -44,7 +44,7 @@
 		</header>
 		<div class="container">
 			<ul class="actions special">
-				<li><a href="#one" class="button primary scrolly">Up</a></li>
+				<li><a href="#one" class="button primary scrolly">About Me</a></li>
 			</ul>
 		</div>
 	</section>
@@ -74,7 +74,7 @@
 			<span class="image fit primary"><img src="images/pic02.jpg" alt="Traditional Korean architecture" /></span>
 			<div class="content">
 				<header class="major">
-					<h2>Technologies</h2>
+					<h2>Skills</h2>
 				</header>
 				<ul class="icons-grid">
 					<li>
@@ -123,21 +123,40 @@
 				<header class="major">
 					<h2>Projects</h2>
 				</header>
-				<h3 class="project-name" id="alter-self">A L T E R S E L F</h3>
+				<header>
+					<h4 class="project-name" id="alter-self">A L T E R S E L F</h4>
+					<p>React / Redux. Flask. SQLAlchemy. PostgreSQL.</p>
+				</header>
+				<p>A 5th-Edition Dungeons and Dragons character manager</p>
+				<span class="image fit"><img src="images/roster.gif" alt="" /></span>
+				<span class="image fit"><img src="images/char.gif" alt="" /></span>
+				<span class="image fit"><img src="images/scholar.gif" alt="" /></span>
 				<hr />
-				<h3 class="project-name" id="roll-for">roll for memory</h3>
+				<header>
+					<h4 class="project-name" id="roll-for">roll for memory</h4>
+					<p>React / Redux. Express. Sequelize. PostgreSQL.</p>
+				</header>
+				<p>An Evernote clone for role-playing gamers</p>
+				<span class="image fit"><img src="images/book.gif" alt="" /></span>
+				<span class="image fit"><img src="images/roll.gif" alt="" /></span>
 				<hr />
-				<h3 class="project-name" id="tale-task">TALE Of TASK</h3>
+				<header>
+					<h4 class="project-name" id="tale-task">TALE Of TASK</h4>
+					<p>Pug. Express. Sequelize. PostgreSQL.</p>
+				</header>
+				<p>A gamified Remember the Milk clone</p>
 				<hr />
-				<h3 class="project-name" id="loot-locker">Loot Locker</h3>
-				<hr />
+				<header>
+					<h4 class="project-name" id="loot-locker">Loot Locker</h4>
+					<p>React / Redux. Flask. SQLAlchemy. PostgreSQL.</p>
+				</header>
+				<p>An Etsy clone for fantasy worlds</p>
 			</div>
 			<a href="#footer" class="goto-next scrolly">Next</a>
 		</div>
 	</section>
 
 	<!-- Four -->
-	<!--
 	<section id="four" class="main">
 		<div class="container">
 			<div class="content">
@@ -499,7 +518,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<a href="#footer" class="goto-next scrolly">Next</a>
 		</div>
 	</section>
- -->
 
 	<!-- Footer -->
 	<section id="footer">
@@ -509,15 +527,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</header>
 			<form target="_blank" method="post" action="https://formsubmit.co/c54e2d6d423711bd06d7e6c30963ecf9">
 				<div class="row gtr-uniform">
-					<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" />
+					<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name"
+							required />
 					</div>
-					<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" />
+					<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email"
+							required />
 					</div>
-					<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+					<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"
+							required></textarea>
 					</div>
 					<div class="col-12">
 						<ul class="actions special">
 							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Reset" /></li>
 						</ul>
 					</div>
 				</div>
