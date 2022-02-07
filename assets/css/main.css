@@ -3162,6 +3162,11 @@ input, select, textarea {
 }
 
 .nav-buttons {
+	margin-bottom: 0em !important;
+}
+
+.nav-icons {
+	margin-bottom: 1em !important;
 	margin-top: 2.5em;
 }
 
@@ -3172,10 +3177,6 @@ input, select, textarea {
 
 .nav-buttons a {
 	border: none;
-}
-
-.nav-icons {
-	margin-bottom: 0 !important;
 }
 
 #alter-self {
