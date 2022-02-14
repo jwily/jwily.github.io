@@ -2233,7 +2233,7 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image:before {
+		.image.primary:before {
 			background: url("images/overlay.png");
 			content: '';
 			display: block;
@@ -3162,7 +3162,12 @@ input, select, textarea {
 }
 
 .nav-buttons {
-	margin-top: 2em !important;
+	margin-bottom: 0em !important;
+}
+
+.nav-icons {
+	margin-bottom: 1em !important;
+	margin-top: 2.5em;
 }
 
 .nav-buttons li {
