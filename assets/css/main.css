@@ -3179,10 +3179,6 @@ input, select, textarea {
 	border: none;
 }
 
-.nav-icons {
-	margin-bottom: 0 !important;
-}
-
 #footer .icons a {
 	color: white;
 	transition: color 0.2 ease-in-out;
