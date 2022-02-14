@@ -2822,11 +2822,11 @@ input, select, textarea {
 			}
 
 			#header header a {
-				color: inherit;
+				color: white;
 			}
 
 				#header header a:hover {
-					color: #ffffff !important;
+					color: gold !important;
 				}
 
 			#header header h1 {
@@ -3177,6 +3177,19 @@ input, select, textarea {
 
 .nav-buttons a {
 	border: none;
+}
+
+.nav-icons {
+	margin-bottom: 0 !important;
+}
+
+#footer .icons a {
+	color: white;
+	transition: color 0.2 ease-in-out;
+}
+
+#footer .icons a:hover {
+	color: gold !important;
 }
 
 #alter-self {
